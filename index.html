@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hour</title>
+    <!-- style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body">
+    <main>
+      <div class="container">
+        <div id="day">Monday, January 01, 2022</div>
+        <div class="time">
+          <div class="hours">
+            <div class="text">Hours</div>
+            <div class="number" id="hour">00</div>
+          </div>
+          <div class="colon">:</div>
+          <div class="minutes">
+            <div class="text">Minutes</div>
+            <div class="number" id="minute">00</div>
+          </div>
+          <div class="colon">:</div>
+          <div class="seconds">
+            <div class="text">Seconds</div>
+            <div class="number" id="second">00</div>
+          </div>
+        </div>
+      </div>
+      <select name="timezone" id="timezone">
+        <option value="new-york">(UTC-5) New York</option>
+        <option value="sao-paulo" selected>(UTC-3) São Paulo</option>
+        <option value="london">(UTC+0) London</option>
+        <option value="paris">(UTC+0) Paris</option>
+        <option value="kyiv">(UTC+2) Kyiv</option>
+        <option value="moscow">(UTC+3) Moscow</option>
+        <option value="beijing">(UTC+8) Beijing</option>
+        <option value="tokyo">(UTC+9) Tokyo</option>
+      </select>
+    </main>
+    <footer>
+      <a href="https://github.com/camposerick" target="_blank"
+        ><img src="./img/icon-github.png" alt="Github Icon"
+      /></a>
+      <a href="https://www.linkedin.com/in/camposerick/" target="_blank"
+        ><img src="./img/icon-linkedin.png" alt="Linkedin Icon"
+      /></a>
+      <a href="https://twitter.com/camposerick_" target="_blank"
+        ><img src="./img/icon-twitter.png" alt="Twitter Icon"
+      /></a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
